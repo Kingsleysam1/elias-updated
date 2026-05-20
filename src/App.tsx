@@ -136,7 +136,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* 4. Footer Column Portal */}
-      <Footer setCurrentPage={setCurrentPage} />
+      <Footer setCurrentPage={setCurrentPage} isNightMode={isNightMode} />
 
     </div>
   );

@@ -38,7 +38,7 @@ export default function About({ setCurrentPage }: AboutProps) {
         <div className="lg:col-span-12 xl:col-span-5 relative">
           <div className="aspect-4/5 w-full bg-theme-bg/60 border border-theme-fg/10 p-2 shadow-sm rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+              src="/event/KHA_4309.jpg"
               alt="Momoh Elias Portrait"
               className="w-full h-full object-cover filter brightness-[0.9] grayscale contrast-[1.02] rounded-xl"
               referrerPolicy="no-referrer"

@@ -23,12 +23,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'A Wedding Tale — Eternal Vows',
     category: 'wedding',
     date: 'January 2020',
-    imageUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/wedding/DSC_0521.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=800'
+      '/wedding/DSC_0521.jpg',
+      '/wedding/DSC_0528.jpg',
+      '/wedding/DSC_0594.jpg',
+      '/wedding/DSC_0601.jpg'
     ],
     description: 'A classic minimal couple edit capturing pure connection during the golden hour.',
     featured: true
@@ -38,12 +38,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'A Wedding Tale — The Tender Glance',
     category: 'wedding',
     date: 'January 2020',
-    imageUrl: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/wedding/DSC_0691.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1505232458627-a7272640408a?auto=format&fit=crop&q=80&w=800'
+      '/wedding/DSC_0691.jpg',
+      '/wedding/DSC_0710.jpg',
+      '/wedding/DSC_0820-1.jpg',
+      '/wedding/DSC_0901.jpg'
     ],
     description: 'Unrehearsed emotional reactions framing the couples celebratory entrance.'
   },
@@ -52,12 +52,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Wedding Glow — Details of Preparation',
     category: 'wedding',
     date: 'June 2023',
-    imageUrl: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/wedding/Jennifer-and-King_24.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=800'
+      '/wedding/Jennifer-and-King_24.jpg',
+      '/wedding/Jennifer-and-King_27.jpg',
+      '/wedding/Jennifer-and-King_29.jpg',
+      '/wedding/Jennifer-and-King_35.jpg'
     ],
     description: 'Fine-art editorial preview displaying standard lace details, jewelry, and calm poise.'
   },
@@ -66,12 +66,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Grand Ballroom Celebration',
     category: 'wedding',
     date: 'November 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/wedding/SINO4215.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1505232458627-a7272640408a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800'
+      '/wedding/SINO4215.jpg',
+      '/wedding/SINO4227.jpg',
+      '/wedding/SINO4232.jpg',
+      '/wedding/SINO4254.jpg'
     ],
     description: 'Breathtaking floral styling and standard seating structures in high-contrast candle lighting.'
   },
@@ -82,12 +82,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Face of Resilience — Studio Portrait',
     category: 'portrait',
     date: 'March 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/portrait/DSC01163.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800'
+      '/portrait/DSC01163.jpg',
+      '/portrait/DSC01151.jpg',
+      '/portrait/DSC01143.jpg',
+      '/portrait/DSC01129.jpg'
     ],
     description: 'The iconic portrait exhibiting powerful facial features, minimal background, and masterful key light.',
     featured: true
@@ -97,12 +97,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Shadow play — Silhouette Study',
     category: 'portrait',
     date: 'September 2023',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/portrait/_DEL2067BW.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=800'
+      '/portrait/_DEL2067BW.jpg',
+      '/portrait/_DEL2042.JPG',
+      '/portrait/DSC_1542.jpg',
+      '/portrait/DSC_1546.jpg'
     ],
     description: 'Exploring sharp modern contrasts, side lighting, and character depth in black and white.'
   },
@@ -111,12 +111,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Calm Intensity',
     category: 'portrait',
     date: 'February 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/portrait/DSC_0334.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800'
+      '/portrait/DSC_0334.jpg',
+      '/portrait/DSC_0335.jpg',
+      '/portrait/DSC_0337.jpg',
+      '/portrait/DSC_0338.jpg'
     ],
     description: 'Minimal studio headshot showing strong features with absolute focus.'
   },
@@ -125,12 +125,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'The Modern Idealist',
     category: 'portrait',
     date: 'July 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/portrait/Becky_2.JPG',
     relatedImages: [
-      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800'
+      '/portrait/Becky_2.JPG',
+      '/portrait/Becky_4.JPG',
+      '/portrait/Zinta_5.jpg',
+      '/portrait/Zinta_6.jpg'
     ],
     description: 'Beautiful, high-contrast female model showcasing professional studio lighting.'
   },
@@ -141,12 +141,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Top Abuja Fashion Designer Editorial',
     category: 'model',
     date: 'January 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/model/DSC05581.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800'
+      '/model/DSC05581.jpg',
+      '/model/DSC05661.jpg',
+      '/model/DSC05670.jpg',
+      '/model/DSC05689.jpg'
     ],
     description: 'Vibrant modern textiles highlighted on a rich studio backdrop for commercial use.',
     featured: true
@@ -156,12 +156,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Asymmetry & Haute Couture',
     category: 'model',
     date: 'January 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/model/DSC06101.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800'
+      '/model/DSC06101.jpg',
+      '/model/DSC06437.jpg',
+      '/model/DSC06482.jpg',
+      '/model/DSC06533.jpg'
     ],
     description: 'Crisp detailing of textured garments in an high-fashion editorial editorial frame.'
   },
@@ -170,12 +170,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Contrast Editorial Study',
     category: 'model',
     date: 'October 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/model/Jemima.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800'
+      '/model/Jemima.jpg',
+      '/model/Jemima_2.jpg',
+      '/model/IFE_0049.JPG',
+      '/model/IFE_0066.jpg'
     ],
     description: 'A striking profile photo designed for promotional banners and premium catalogs.'
   },
@@ -186,12 +186,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'CEO Executive Portrait — Abuja Tech Hub',
     category: 'corporate',
     date: 'December 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/coorporate/DSC01153.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800'
+      '/coorporate/DSC01153.jpg',
+      '/coorporate/DSC01159.jpg',
+      '/coorporate/DSC_0309.jpg',
+      '/coorporate/IMG_6149.jpg'
     ],
     description: 'A polished, confident business profile showcasing clean background styling and perfect lighting.',
     featured: true
@@ -201,12 +201,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Environmental Portrait — Lead Counsel',
     category: 'corporate',
     date: 'August 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/coorporate/IMG_6177.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800'
+      '/coorporate/IMG_6177.jpg',
+      '/coorporate/IMG_6264.jpg',
+      '/coorporate/IMG_6269.jpg',
+      '/coorporate/IMG_6150.jpg'
     ],
     description: 'A comfortable corporate expression focusing on approachability and leadership.'
   },
@@ -215,12 +215,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Tech Founder Confident Angle',
     category: 'corporate',
     date: 'April 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/coorporate/Trust-Charitos-(5).jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800'
+      '/coorporate/Trust-Charitos-(5).jpg',
+      '/coorporate/Trust-Charitos-(33).jpg',
+      '/coorporate/Trust-Charitos-(37).jpg',
+      '/coorporate/DSC_0309.jpg'
     ],
     description: 'High-contrast professional portrait emphasizing clean lines and sophisticated modern apparel.'
   },
@@ -231,12 +231,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Nationwide Excellence Gala and Summit',
     category: 'events',
     date: 'November 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/event/DSC00462.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1505232458627-a7272640408a?auto=format&fit=crop&q=80&w=800'
+      '/event/DSC00462.jpg',
+      '/event/DSC00581.jpg',
+      '/event/DSC00586.jpg',
+      '/event/DSC06946.jpg'
     ],
     description: 'A wide-angle perspective capturing the vibrant architecture and dynamic stage lighting.'
   },
@@ -245,12 +245,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Candid Keynote Presenter',
     category: 'events',
     date: 'September 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/event/DSC06990.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800'
+      '/event/DSC06990.jpg',
+      '/event/DSC07003.jpg',
+      '/event/DSC07056.jpg',
+      '/event/DSC07058.jpg'
     ],
     description: 'Capturing dynamic raw motion and emotional engagement from the primary speaker.',
     featured: true
@@ -260,12 +260,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'The Toast of Abuja Elite',
     category: 'events',
     date: 'February 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/event/KHA_4150.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800'
+      '/event/KHA_4150.jpg',
+      '/event/KHA_4206.jpg',
+      '/event/KHA_4309.jpg',
+      '/event/DSC08466.jpg'
     ],
     description: 'Intimate guest interactions caught in a beautifully soft-focused background.'
   },
@@ -276,12 +276,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'The Generation Golden Embrace',
     category: 'family',
     date: 'December 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/family/DSC01789.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800'
+      '/family/DSC01789.jpg',
+      '/family/DSC01834.jpg',
+      '/family/DSC05639.jpg',
+      '/family/DSC05743.jpg'
     ],
     description: 'Studio sunset session with clean, unified earth tones bringing warmth and character.'
   },
@@ -290,12 +290,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Maternity Radiance',
     category: 'family',
     date: 'October 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/family/_DEL9536.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1484712401471-05c7215a69eb?auto=format&fit=crop&q=80&w=800'
+      '/family/_DEL9536.jpg',
+      '/family/_DEL9555 (1).jpg',
+      '/family/_DEL9586.jpg',
+      '/family/_DEL9615.jpg'
     ],
     description: 'A pure silhouette portrait honoring anticipation with sophisticated modern studio lighting.'
   },
@@ -304,12 +304,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Joy of the Sunlit Garden',
     category: 'family',
     date: 'July 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/family/DSC06601.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800'
+      '/family/DSC06601.jpg',
+      '/family/DSC06620.jpg',
+      '/family/DSC06632.jpg',
+      '/family/DSC06714.jpg'
     ],
     description: 'Dynamic outdoor candids conveying connection, energy, and love.'
   },
@@ -320,12 +320,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Sculptural Cosmetics — Minimal Design',
     category: 'products',
     date: 'November 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/product/DEL_1276.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800'
+      '/product/DEL_1276.jpg',
+      '/product/DEL_1519.jpg',
+      '/product/DSC_0382.jpg',
+      '/product/DSC_0512.jpg'
     ],
     description: 'Clean product-focused lighting setting off premium ingredients on earthy clay blocks.',
     featured: true
@@ -335,12 +335,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Elegant Timepiece Detail',
     category: 'products',
     date: 'September 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/product/DEL_1519.jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=800'
+      '/product/DEL_1519.jpg',
+      '/product/DSC_0382.jpg',
+      '/product/DSC_0512.jpg',
+      '/product/DEL_1276.jpg'
     ],
     description: 'Extreme close up macro shot showcasing metal grain, reflections, and luxury textures.'
   },
@@ -349,12 +349,12 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Contour — Athletic Design',
     category: 'products',
     date: 'August 2024',
-    imageUrl: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/product/DSC_0542 (1).jpg',
     relatedImages: [
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&q=80&w=800'
+      '/product/DSC_0542 (1).jpg',
+      '/product/DEL_1276.jpg',
+      '/product/DEL_1519.jpg',
+      '/product/DSC_0382.jpg'
     ],
     description: 'Striking shadow angles accenting shoe contours for direct client web catalog placements.'
   }
@@ -373,7 +373,7 @@ export const SERVICES_LIST: ServiceDetail[] = [
       'Edited gallery delivered within 1 week',
       'Unlimited photo prints & digital files included'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/wedding/DSC_0521.jpg'
   },
   {
     id: 's_portrait',
@@ -387,7 +387,7 @@ export const SERVICES_LIST: ServiceDetail[] = [
       'Same-week delivery of edited images',
       'Wardrobe consultation included'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/portrait/DSC01163.jpg'
   },
   {
     id: 's_commercial',
@@ -401,7 +401,7 @@ export const SERVICES_LIST: ServiceDetail[] = [
       'High-resolution files ready for print & digital',
       'Creative direction and prop styling available'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/model/DSC05581.jpg'
   },
   {
     id: 's_corporate',
@@ -415,7 +415,7 @@ export const SERVICES_LIST: ServiceDetail[] = [
       'Background options: solid, environmental, or branded',
       'Quick turnaround for corporate teams'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/coorporate/DSC01153.jpg'
   }
 ];
 

@@ -18,7 +18,7 @@ export default function Portfolio({ setCurrentPage, setPreselectedCategory }: Po
 
   const tabs = [
     { label: 'All Work', id: 'all' },
-    { label: 'Wedding Narratives', id: 'wedding' },
+    { label: 'Wedding Sessions', id: 'wedding' },
     { label: 'Studio Portraits', id: 'portrait' },
     { label: 'Model & Fashion', id: 'model' },
     { label: 'Corporate Profiles', id: 'corporate' },

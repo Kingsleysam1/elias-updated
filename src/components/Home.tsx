@@ -113,7 +113,7 @@ export default function Home({ setCurrentPage }: HomeProps) {
               className="relative aspect-4/5 w-full bg-theme-bg border border-theme-fg/10 p-2 flex items-center justify-center shadow-lg rounded-2xl overflow-hidden"
             >
               <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800"
+                src="/model/Mrs-A7.jpg"
                 alt="Highlight Portrait"
                 className="w-full h-full object-cover filter brightness-[0.9] contrast-[1.02] rounded-xl"
                 referrerPolicy="no-referrer"

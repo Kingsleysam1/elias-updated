@@ -152,7 +152,7 @@ export default function Services({ setCurrentPage, setPreselectedPackage, setCus
         {/* Categories Tab Selector */}
         <div className="flex flex-wrap justify-center gap-2.5 mb-14 max-w-2xl mx-auto select-none">
           {[
-            { id: 'wedding', label: 'Wedding Narratives' },
+            { id: 'wedding', label: 'Wedding Sessions' },
             { id: 'photoshoot', label: 'Photoshoot Sessions' },
             { id: 'family', label: 'Family Portraits' },
             { id: 'corporate', label: 'Corporate Headshots' }

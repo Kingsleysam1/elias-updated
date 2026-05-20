@@ -3,9 +3,10 @@ import { motion } from 'motion/react';
 
 interface FooterProps {
   setCurrentPage: (page: string) => void;
+  isNightMode?: boolean;
 }
 
-export default function Footer({ setCurrentPage }: FooterProps) {
+export default function Footer({ setCurrentPage, isNightMode = false }: FooterProps) {
   const handleNav = (id: string) => {
     setCurrentPage(id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -26,20 +27,16 @@ export default function Footer({ setCurrentPage }: FooterProps) {
           <div className="md:col-span-1 space-y-6">
             <button
                onClick={() => handleNav('home')}
-              className="flex items-center gap-3 text-left group cursor-pointer focus:outline-none bg-transparent border-none p-0"
+              className="flex items-center text-left group cursor-pointer focus:outline-none bg-transparent border-none p-0"
               id="footer-logo"
             >
-              <div className="w-10 h-10 rounded-full border border-theme-footer-fg/10 flex items-center justify-center bg-theme-footer-fg/5 text-theme-footer-fg transition-all duration-300 group-hover:scale-105 group-hover:bg-theme-footer-fg/10 group-hover:border-theme-footer-fg/30">
-                <Camera size={18} strokeWidth={1.5} />
-              </div>
-              <div>
-                <span className="block font-sans font-semibold tracking-[0.05em] text-sm text-theme-footer-fg uppercase">
-                  DELIGHT<span className="font-light opacity-60">NOTIONS</span>
-                </span>
-                <span className="block font-sans text-[8px] tracking-[0.25em] uppercase text-theme-footer-fg/50">
-                  Visual Studio
-                </span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Delight Notions Logo"
+                className={`h-9 w-auto object-contain transition-all duration-300 group-hover:opacity-90 ${
+                  isNightMode ? '' : 'invert'
+                }`}
+              />
             </button>
             <p className="text-theme-footer-fg/70 font-sans text-xs leading-relaxed max-w-sm">
               Led by Momoh Elias. Capturing moments that tell organic stories, evoke intense raw emotions, and leave a lasting impression across Nigeria. Based in Abuja, traveling globally.
@@ -117,7 +114,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
                   className="hover:text-theme-accent cursor-pointer flex items-center gap-1 group bg-transparent border-none p-0 transition-all duration-300 ease-out hover:translate-x-1.5"
                 >
                   <span className="relative pb-0.5 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-theme-accent after:transition-all group-hover:after:w-full text-left">
-                    Wedding Narratives
+                    Wedding Sessions
                   </span>
                 </button>
               </li>

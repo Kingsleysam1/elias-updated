@@ -43,23 +43,19 @@ export default function Header({ currentPage, setCurrentPage, isNightMode, toggl
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        {/* Brand Logo - Apple simplicity with camera detail */}
+        {/* Brand Logo - Render cropped logo.png image */}
         <button
           onClick={() => handleNavClick('home')}
-          className="flex items-center gap-3 text-left group cursor-pointer focus:outline-none"
+          className="flex items-center group cursor-pointer focus:outline-none py-1"
           id="btn-logo"
         >
-          <div className="w-10 h-10 rounded-full border border-theme-fg/20 flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-theme-accent group-hover:bg-theme-accent-light group-hover:text-theme-accent bg-theme-fg/5 text-theme-fg">
-            <Camera size={18} strokeWidth={1.5} />
-          </div>
-          <div>
-            <span className="block font-sans font-semibold tracking-[0.05em] text-sm text-theme-fg uppercase group-hover:text-theme-accent transition-colors">
-              DELIGHT<span className="font-light opacity-60">NOTIONS</span>
-            </span>
-            <span className="block font-sans text-[8px] tracking-[0.25em] uppercase text-theme-fg/50">
-              Visual Studio
-            </span>
-          </div>
+          <img
+            src="/logo.png"
+            alt="Delight Notions Logo"
+            className={`h-9 sm:h-10 w-auto object-contain transition-all duration-300 group-hover:opacity-90 ${
+              isNightMode ? '' : 'invert'
+            }`}
+          />
         </button>
 
         {/* Desktop Navigation Links */}

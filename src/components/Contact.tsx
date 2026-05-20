@@ -302,7 +302,7 @@ export default function Contact({
                         className="w-full bg-theme-bg border border-theme-fg/25 px-4 py-3 text-theme-fg text-sm focus:border-theme-accent focus:ring-1 focus:ring-theme-accent/30 focus:outline-none rounded-xl transition-all duration-200 cursor-pointer"
                         id="contact-field-category"
                       >
-                        <option value="wedding">Wedding Narratives</option>
+                        <option value="wedding">Wedding Sessions</option>
                         <option value="portrait">Studio Portraits</option>
                         <option value="model">Creative Model & Fashion</option>
                         <option value="corporate">Corporate Profiles</option>
