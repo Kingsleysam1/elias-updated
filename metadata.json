@@ -1,0 +1,6 @@
+{
+  "name": "Delight Notions Photography",
+  "description": "Modern minimalist redesign of the official portfolio website for Delight Notions Photography Studio, led by Momoh Elias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

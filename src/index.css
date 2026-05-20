@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui;
+  --color-theme-bg: var(--theme-bg);
+  --color-theme-fg: var(--theme-fg);
+  --color-theme-footer-bg: var(--theme-footer-bg);
+  --color-theme-footer-fg: var(--theme-footer-fg);
+  --color-theme-accent: var(--theme-accent);
+  --color-theme-accent-hover: var(--theme-accent-hover);
+  --color-theme-accent-light: var(--theme-accent-light);
+  --color-theme-card-bg: var(--theme-card-bg);
+  --color-theme-card-border: var(--theme-card-border);
+}
+
+:root {
+  --theme-bg: #F2F1ED; /* Soft Pearl background */
+  --theme-fg: #161616; /* Obsidian Black primary text */
+  --theme-footer-bg: rgba(235, 224, 214, 0.75); /* Translucent, lighter shade of Warm Sand for glassmorphism */
+  --theme-footer-fg: #161616; /* Obsidian Black text */
+  --theme-accent: #710014; /* Crimson Depth */
+  --theme-accent-hover: #54000f; /* Darker Crimson Depth */
+  --theme-accent-light: rgba(113, 0, 20, 0.08); /* Transparent Red tint */
+  --theme-card-bg: #B38F6F; /* Warm Sand cards */
+  --theme-card-border: rgba(22, 22, 22, 0.15); /* Obsidian Black border overlay */
+}
+
+.dark-theme {
+  --theme-bg: #161616; /* Obsidian Black background */
+  --theme-fg: #F2F1ED; /* Soft Pearl primary text */
+  --theme-footer-bg: rgba(42, 42, 42, 0.7); /* Translucent, lighter shade of Obsidian Black for glassmorphism */
+  --theme-footer-fg: #F2F1ED; /* Soft Pearl text */
+  --theme-accent: #710014; /* Crimson Depth */
+  --theme-accent-hover: #8F0B22; /* High-contrast bright crimson for readability */
+  --theme-accent-light: rgba(113, 0, 20, 0.16);
+  --theme-card-bg: #2A2A2A; /* Dark card surfaces */
+  --theme-card-border: rgba(242, 241, 237, 0.1); /* Soft Pearl subtle border overlay */
+}
+
+/* Master 450ms smooth transition for all theme styling variables */
+body, html, #root, .min-h-screen, header, footer, main, section, input, select, textarea, button, a, 
+.bg-theme-bg, .text-theme-fg, .bg-theme-footer-bg, .text-theme-footer-fg, .border, [class*="border-"] {
+  transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1), 
+              border-color 450ms cubic-bezier(0.4, 0, 0.2, 1), 
+              color 450ms cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 450ms cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-fg);
+}
+
+/* Selection and custom scrollbars with custom property tracking */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--theme-bg);
+  transition: background-color 0.35s ease;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--theme-fg);
+  border-radius: 9999px;
+  border: 2px solid var(--theme-bg);
+  transition: background-color 0.35s ease, border-color 0.35s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-accent);
+}
+
+::selection {
+  background-color: var(--theme-accent);
+  color: #F2F1ED;
+}
+
